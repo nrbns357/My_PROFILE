@@ -2,9 +2,18 @@ import React from 'react';
 
 const Naver = () => {
     return (
-        <div>
-          가나다라  
-        </div>
+        <>
+          <nav>
+              
+            <div>
+                
+            </div>
+            
+            <ul>
+                <li>NRBNS</li>
+            </ul>    
+          </nav>  
+        </>
     );
 };
 
