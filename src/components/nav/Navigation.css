@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.navBar{
+    padding: 12px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.appleImg{
+    width: 50px;
+}
+
+.menuImg{
+    width: 20px;
+    cursor: pointer;
+}
+
+.linkUl{
+    display: flex;
+    list-style: none;
+}
+
+.linkUl li{
+    padding: 8px;
+}

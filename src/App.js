@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from './page/nav/Navigation';
+import Nav from './page/nav/nav';
 
 const App = () => {
   return (
     <>
-      <Navigation/>
+      <Nav/>
     </>
   );
 };
