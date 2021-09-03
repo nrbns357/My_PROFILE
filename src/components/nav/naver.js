@@ -7,7 +7,7 @@ const Naver = () => {
           <nav className="navBar">
               
             <div>
-                {/* svg로 사진 넣기 */}
+                <img src="./" alt="로고"></img>
             </div>
             
             <ul>
