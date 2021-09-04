@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.navigation{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 300px;
+    border-radius:10px ;
+    box-sizing: initial;
+    border-left: 5px solid #3b48dd;
+    background-color: #9ba2f8;
+    transition: width 0.5s;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0 0 5px;
+}
+
+.icon{
+    width: 25px;
+    padding-right: 5px;
+}
+
+.title{
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    color: black;
+}
+
+.list{
+    margin: 30px;
+}

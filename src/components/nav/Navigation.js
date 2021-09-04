@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './Navigation.css';
 import AppleImg from "../../asset/img/apple.svg";
 import MenuImg from "../../asset/img/menu.svg";
-import Menu from '../menu/menu';
+import Menu from '../nav/menu';
 
 const Navigation = () => {
     let [menu, setMenu] = useState(false);
