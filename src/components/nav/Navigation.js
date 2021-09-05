@@ -18,11 +18,6 @@ const Navigation = () => {
                 <p>NRBNS</p>
             </div>
             
-            <ul className="linkUl">
-                <li><a href="#">NAVER</a></li>
-                <li><a href="#">KAKAO</a></li>
-            </ul>    
-
             <div>
                 <img className="menuImg" onClick={menuClick} src={MenuImg} alt="메뉴바"/>
             </div>

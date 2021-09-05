@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -11,13 +12,12 @@ body{
 
 .navigation{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 100px;
+    right: 0px;
     bottom: 20px;
     width: 300px;
-    border-radius:10px ;
     box-sizing: initial;
-    border-left: 5px solid #3b48dd;
+    box-shadow: -5px 0 5px 2px  #3b49dd85;
     background-color: #9ba2f8;
     transition: width 0.5s;
 }
@@ -26,13 +26,6 @@ body{
     list-style: none;
 }
 
-.navigation ul{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 0 0 5px;
-}
 
 .icon{
     width: 25px;
@@ -48,4 +41,5 @@ body{
 
 .list{
     margin: 30px;
+    cursor: pointer;
 }
