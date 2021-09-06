@@ -14,7 +14,7 @@ const Menu = () => {
 
     <div className="navigation">
         <ul>
-            <li className="list active">
+            <li className="list ">
                 <a href="#">
                     <img className="icon" alt="아이콘들"src={Home}/>
                     <span className="title">Home</span>

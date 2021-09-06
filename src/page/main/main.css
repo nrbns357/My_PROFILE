@@ -1,0 +1,11 @@
+.mainBar{
+    width: 100vw;
+    height: 100vh;
+}
+
+.backImg{
+    width: 100%;
+    height: 360px;
+    background-image: url(../../asset/img/hd.jpg);
+    object-fit: contain;
+}
