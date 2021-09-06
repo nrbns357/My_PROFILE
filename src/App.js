@@ -1,15 +1,13 @@
 import React from 'react';
+import "./App.css";
 import Nav from './page/nav/nav';
-import Footer from './page/footer/Footer';
-import Main from './page/main/main';
+import Footer from "./page/footer/Ft";
 
 const App = () => {
   return (
     <>
       <Nav/>
-      <Main/>
-      
-        <Footer/>
+      <Footer/>
     </>
   );
 };

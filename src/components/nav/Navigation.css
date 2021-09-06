@@ -8,19 +8,26 @@
 
 
 .navBar{
-    padding: 12px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #9ba2f8;
+    width: 100vw;
+    height: 400px;
+    background-image: url(../../asset/img/mt.jpg);
 }
 
-.appleImg{
-    width: 50px;
+.navBar h3,h4{
+    color: white;
+    padding: 8px;
+    display: inline-flex;
 }
  
 .menuImg{
-    width: 20px;
+    margin: 12px;
+    width: 30px;
     cursor: pointer;
+    position: absolute;
+    right: 0px;
+}
+
+.explanation{
+    padding: 12px;
+    font-size: 20px;
 }

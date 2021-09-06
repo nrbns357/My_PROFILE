@@ -1,11 +1,11 @@
-import '../main/main.css';
+import React from 'react';
 
-const Main = () => {
+const mi = () => {
     return (
-        <main className="mainBar">
-            <div className="backImg">
-            </div>
-        </main>
-    )};
+        <>
+            
+        </>
+    );
+};
 
-export default Main;
+export default mi;
