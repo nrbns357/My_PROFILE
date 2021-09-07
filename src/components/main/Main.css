@@ -1,5 +1,24 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
 .mainImg{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../asset/img/city.jpg);
+    background-image: url(../../asset/img/mt.jpg);
+}
+
+.mainImg span{
+    font-size: 100px;
+    color: rgb(16,69,83);
+    position: relative;
+    left: 30rem;
+    top: 10rem;
+}
+
+.AboutMe{
+    width: 100vw;
+    height: 100vh;
 }
