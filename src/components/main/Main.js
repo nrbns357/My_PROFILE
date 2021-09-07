@@ -1,5 +1,5 @@
 import './Main.css';
-import S from "../../asset/img/1.jpg";
+import S from "../../asset/img/fuck.png";
 
 const Main = () => {
     return (
@@ -10,11 +10,12 @@ const Main = () => {
             </div>
                 
             <div className="AboutMe">
+                    
+                    
+                    <div className="Square">
                     <img src={S}/>      
-                    <div></div>              
-                <div className="introduction">
-                    <span>NVAER</span>
-                </div>
+                    </div>
+                    
             </div>
         </main>
     );
