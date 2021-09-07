@@ -1,9 +1,11 @@
-import "../../components/main/Main.css";
+import './Main.css';
 
 const Main = () => {
     return (
         <>
-            
+            <div className="mainImg">
+
+            </div>
         </>
     );
 };

@@ -1,7 +1,6 @@
-import React from 'react';
 import Footer from '../../components/footer/Footer';
 
-const Ft = () => {
+const FooterBar = () => {
     return (
         <>
             <Footer/>
@@ -9,4 +8,4 @@ const Ft = () => {
     );
 };
 
-export default Ft;
+export default FooterBar;
