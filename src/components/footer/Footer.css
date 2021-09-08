@@ -1,0 +1,16 @@
+.footerDiv{
+    width: 100vw;
+    height: 80px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerDiv span{
+    color: black;
+}
+
+.footerDiv a img{
+    width: 30px;
+}

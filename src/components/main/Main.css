@@ -11,7 +11,7 @@
 }
 
 .mainImg span:nth-child(2){
-    font-size:1.3rem;
+    font-size:1rem;
     writing-mode: vertical-rl;
     position: absolute;
     top: 4%;
@@ -19,14 +19,14 @@
 }
 
 .mainImg span:nth-child(1){
-    font-size: 1.3rem;
+    font-size: 1rem;
     position: absolute;
     top: 3%;
     left: 28%;
 }
 
 .mainImg span{
-    font-size: 100px;
+    font-size: 8rem;
     color: rgb(16,69,83);
     position: relative;
     left: 35rem;
@@ -65,13 +65,40 @@
     right: -3%;
     top: -2.3rem;
     font-weight: 500; 
+    color: rgb(16,69,83);
 }
 
 .Square span:nth-child(2){
     position: absolute;
     font-size: 1.4rem;
-    top: 14%;
-    right: -4rem;
+    top: 15%;
+    right: -4.5rem;
     z-index: 2;
     writing-mode: vertical-rl;
+}
+
+.Skills{
+    width: 100vw;
+    height: 90vh;
+}
+
+.skillbox{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbox img{
+    width: 150px;
+    margin: 12px;
+}
+
+.Skills span{
+    position: relative;
+    top: 40px;
+    left: 35%;
+    font-size: 150px;
 }
