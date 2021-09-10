@@ -10,24 +10,31 @@ import Mysql from "../../asset/img/mysql.svg";
 const Main = () => {
     return (
         <main>
-            <div className="mainImg">
+            <div id="mainImg" className="mainImg">
                 <span>Geum Hyunho</span>
                 <span>PORTFOLIO<br/>VOL.1</span>
                 <span>Front</span><br/>
                 <span>Developer</span>
             </div>
                 
-            <div className="AboutMe">
+            <div id="AboutMe" className="AboutMe">
                     <div className="Square">
                         <span>About Me</span>
                         <span>2005.03.04</span>    
 
                         <img src={Person}/>
                     </div>
+                <div className="AboutMeContent">
+                    <ul>
+                        <li>○대구소프트웨어마이스터고등학교 재학중</li>
+                        <li>○1-3반장</li>
+                        <li>○b1nd 6기 인턴</li>
+                        <li>○ENFP</li>
+                    </ul>
+                </div>
             </div>
 
-            <div className="Skills">
-
+            <div id="Skills" className="Skills">
                     <span>I can do</span>
                 <div className="skillbox">
                         <img alt="htmlimg" src={Html}/>
@@ -44,6 +51,19 @@ const Main = () => {
                 </div>
 
             </div>
+            <ul className="link">
+                <li>
+                    <a href="#mainImg">●</a>
+                </li>
+
+                <li>
+                    <a href="#AboutMe">●</a>
+                </li>
+
+                <li>
+                    <a href="#Skills">●</a>
+                </li>
+            </ul>
         </main>
     );
 };
