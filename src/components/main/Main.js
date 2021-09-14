@@ -9,6 +9,12 @@ import Mysql from "../../asset/img/mysql.svg";
 
 const Main = () => {
     return (
+        <>
+        <header className="header">
+                <a href="#mainImg">Home</a>
+                <a href="#AboutMe">AboutMe</a>
+        </header>
+
         <main>
             <div id="mainImg" className="mainImg">
                 <span>Geum Hyunho</span>
@@ -49,6 +55,7 @@ const Main = () => {
             </div>
            
         </main>
+        </>
     );
 };
 
