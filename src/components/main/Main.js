@@ -11,8 +11,10 @@ const Main = () => {
     return (
         <>
         <header className="header">
+            <nav className="navbar">
                 <a href="#mainImg">Home</a>
                 <a href="#AboutMe">AboutMe</a>
+            </nav>
         </header>
 
         <main>
