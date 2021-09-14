@@ -25,12 +25,8 @@ const Main = () => {
                         <img src={Person}/>
                     </div>
                 <div className="AboutMeContent">
-                    <ul>
-                        <li>○대구소프트웨어마이스터고등학교 재학중</li>
-                        <li>○1-3반장</li>
-                        <li>○b1nd 6기 인턴</li>
-                        <li>○ENFP</li>
-                    </ul>
+                    <pre>이름: 금현호</pre>
+                    <pre>나이: 17세</pre>
                 </div>
             </div>
 
@@ -51,19 +47,7 @@ const Main = () => {
                 </div>
 
             </div>
-            <ul className="link">
-                <li>
-                    <a href="#mainImg">●</a>
-                </li>
-
-                <li>
-                    <a href="#AboutMe">●</a>
-                </li>
-
-                <li>
-                    <a href="#Skills">●</a>
-                </li>
-            </ul>
+           
         </main>
     );
 };
