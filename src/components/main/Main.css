@@ -124,15 +124,26 @@
     opacity: 0.3;
     position: fixed;
     font-family: 'Kaisei HarunoUmi', serif;
+    z-index: 1;
 }
 
 .header a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    padding: 12px;
+    margin: 0 1rem;
 }
 
 .header a:hover{
     color: rgb(21, 90, 109);
+}
+
+.header li{
+    list-style: none;
+}
+
+.header-ul{
+display: flex;
+justify-content: center;
+align-items: center;
 }
