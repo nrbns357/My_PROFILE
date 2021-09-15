@@ -8,7 +8,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/hyeonho.gold/">
                         <img src={Insta}/> 
                     </a>
-                <span>call : 010-4078-3842</span>
+                <span>eamil : ghh357@naver.com</span>
             </div>
         </footer>
     );

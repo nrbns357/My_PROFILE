@@ -13,7 +13,6 @@ const Main = () => {
         <div>
         <header className="header">
 
-
                 <ul className="header-ul">
 
                     <li>
@@ -32,6 +31,9 @@ const Main = () => {
                         <a href="#Skills">Skills</a>
                     </li>
 
+                    <li>
+                        <a href="#projectBox">Project</a>
+                    </li>
                 </ul>
 
 
@@ -89,6 +91,16 @@ const Main = () => {
                         <img alt="htmlimg" src={Mysql}/>
                 </div>
 
+            </div>
+
+            <div id="projectBox" className="projectBox">
+                <div className="nrbns-server">
+
+                </div>
+
+                <div className="nomad-javascript">
+
+                </div>
             </div>
            
         </main>

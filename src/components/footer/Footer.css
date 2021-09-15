@@ -1,6 +1,6 @@
 .footerDiv{
     width: 100vw;
-    height: 80px;
+    height: 100px;
     background-color: #f0f0f0;
     display: flex;
     justify-content: space-around;
@@ -9,8 +9,10 @@
 
 .footerDiv span{
     color: black;
+    padding: 12px;
 }
 
 .footerDiv a img{
     width: 30px;
+    margin: 12px;
 }

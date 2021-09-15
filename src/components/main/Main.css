@@ -41,7 +41,7 @@
 
 .Square{
     width: 700px;
-    height: 500px;
+    height: 550px;
     position: relative;
     top: 50%;
     left:0px;
@@ -57,7 +57,7 @@
     top: 45%;
     right: -10%;
     transform: translateY(-50%);
-    z-index: 1;
+
 }
 
 .Square span:nth-child(1){
@@ -76,6 +76,7 @@
     right: -4.5rem;
     z-index: 2;
     writing-mode: vertical-rl;
+    color:#505050;
 }
 
 .Skills{
@@ -107,8 +108,8 @@
 
 .AboutMeContent{
     position: relative;
-    left: 50%;
-    bottom:20%;
+    left: 52%;
+    bottom:25%;
     font-size: 1.2em;
 }
 
@@ -132,6 +133,7 @@
     color: rgb(0, 0, 0);
     font-size: 30px;
     margin: 0 1rem;
+    z-index: 10;
 }
 
 .header a:hover{
@@ -146,4 +148,10 @@
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.projectBox{
+    width:100vw;
+    height: 100vh;
+    
 }
