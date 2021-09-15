@@ -7,7 +7,6 @@ import React from "../../asset/img/react.svg";
 import Php from "../../asset/img/php.svg";
 import Mysql from "../../asset/img/mysql.svg";
 
-
 const Main = () => {
   return (
     <div>
@@ -81,9 +80,18 @@ const Main = () => {
         </div>
 
         <div id="projectBox" className="projectBox">
-          <div className="nrbns-server"></div>
+            <span className="Project">Project</span>
+            <div className="contnentBox">
 
-          <div className="nomad-javascript"></div>
+            <div className="nrbns-server">
+            </div>
+
+            <div className="nomad-javascript">
+            </div>
+
+            <div className="bind-glass">
+            </div>
+            </div>
         </div>
       </main>
     </div>
